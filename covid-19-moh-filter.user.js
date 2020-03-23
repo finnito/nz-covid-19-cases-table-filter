@@ -5,8 +5,10 @@
 // @description  Make the NZ current cases table filterable.
 // @author       You
 // @match        https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-cases
+// @downloadURL  https://github.com/finnito/nz-covid-19-cases-table-filter/raw/master/covid-19-moh-filter.user.js
+// @updateURL    https://github.com/finnito/nz-covid-19-cases-table-filter/raw/master/covid-19-moh-filter.user.js
 // @require      https://code.jquery.com/jquery-3.4.1.slim.min.js
-// @require       https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js
+// @require      https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js
 // @grant        none
 // ==/UserScript==
 
