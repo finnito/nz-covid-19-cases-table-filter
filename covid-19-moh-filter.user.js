@@ -76,16 +76,25 @@
         }
     }
 
+    var orderedPlaces = [], p;
+    for (place in places) {
+        if (places.hasOwnProperty(place)) {
+            orderedPlaces.push(place);
+        }
+    }
+    orderedPlaces.sort();
+
     // Place Filters
     var placeFilterButtons = "",
         prop,
         placeFilter = document.createElement('div');
     placeFilterButtons += '<div class="button-group filter-button-group"><p>Filter by Location</p>';
     placeFilterButtons += '<button data-filter="*">All (' + totalCases + ')</button>';
-    for (prop in places) {
-        if (Object.prototype.hasOwnProperty.call(places, prop)) {
-            placeFilterButtons += '<button data-filter=".' + prop + '">' + prop + ' (' + places[prop] + ')</button>';
-        }
+    for (p = 0; p < orderedPlaces.length; p += 1) {
+    //for (prop in places)
+        //if (Object.prototype.hasOwnProperty.call(places, prop)) {
+            placeFilterButtons += '<button data-filter=".' + orderedPlaces[p] + '">' + orderedPlaces[p] + ' (' + places[orderedPlaces[p]] + ')</button>';
+        //}
     }
     placeFilter.innerHTML = placeFilterButtons;
     document.querySelector(".field-item").append(placeFilter);
