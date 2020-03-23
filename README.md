@@ -12,4 +12,4 @@ While the number of case (as of 23/03/2020) is relatively low, it can be hard to
 
 ## Demo
 
-[![MoH COVID-19 Table Filter (NZ)](http://img.youtube.com/vi/8BdrSyWYH94/0.jpg)](http://www.youtube.com/watch?v=8BdrSyWYH94 "MoH COVID-19 Table Filter (NZ)")
+![MoH COVID-19 Table Filter (NZ)](https://raw.githubusercontent.com/finnito/nz-covid-19-cases-table-filter/master/covid-table-filter.gif)
