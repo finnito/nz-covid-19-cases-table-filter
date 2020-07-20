@@ -1,3 +1,5 @@
+> This script is now defunct due to the large changes (improvements) in the website.
+
 ## What is This?
 
 Here in New Zealand our Ministry of Health (MoH) compiles a list of cases and some information about them on this page: https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-cases.
